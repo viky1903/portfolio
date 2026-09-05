@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../sem3/dm"
+		},
+		{
+			"path": "../sem3/placement dashboard"
+		},
+		{
+			"path": "../fft ncp2"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "placement dashboard"
+	}
+}

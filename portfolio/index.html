@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ankit's academic portfolio — presentations, coursework, projects, and documents all in one place.">
+  <meta name="author" content="Ankit">
+  <title>Ankit — Portfolio & Document Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        ankit<span class="dot">.</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#documents">Documents</a>
+        <a href="#achievements">Journey</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero section" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse"></span>
+        Open to opportunities
+      </div>
+      <h1 class="hero-name">
+        Ankit<span class="accent">.</span>
+      </h1>
+      <p class="hero-tagline">
+        <span id="typingText"></span><span class="typing-cursor"></span>
+      </p>
+      <div class="hero-actions">
+        <a href="#documents" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          Browse Documents
+        </a>
+        <a href="#about" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          About Me
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Get to know me</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Profile Card -->
+        <div class="about-avatar-card reveal">
+          <div class="avatar-wrapper">A</div>
+          <h3 class="avatar-name">Ankit</h3>
+          <p class="avatar-role">Student • Learner • Builder</p>
+          <div class="avatar-status">
+            <span class="dot"></span>
+            Available
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="about-details">
+          <p class="about-bio reveal">
+            Hey there! I'm <strong>Ankit</strong>, a passionate student with a drive for learning and building things that matter. 
+            I'm currently exploring <strong>digital marketing</strong>, technology, and creative problem-solving. 
+            This space is my personal hub — a place where I store my presentations, coursework, and projects so I can access them anytime, anywhere.
+          </p>
+
+          <div class="about-info-grid reveal">
+            <div class="info-card">
+              <div class="label">Focus Area</div>
+              <div class="value">Digital Marketing</div>
+            </div>
+            <div class="info-card">
+              <div class="label">Interests</div>
+              <div class="value">Tech & Strategy</div>
+            </div>
+            <div class="info-card">
+              <div class="label">Currently</div>
+              <div class="value">Learning & Building</div>
+            </div>
+            <div class="info-card">
+              <div class="label">Tools</div>
+              <div class="value">Google Ads & More</div>
+            </div>
+          </div>
+
+          <div class="skills-section reveal">
+            <h3>Skills & Interests</h3>
+            <div class="skills-grid">
+              <span class="skill-tag">Digital Marketing</span>
+              <span class="skill-tag">Google Ads</span>
+              <span class="skill-tag">SEO</span>
+              <span class="skill-tag">Content Strategy</span>
+              <span class="skill-tag">Social Media</span>
+              <span class="skill-tag">Analytics</span>
+              <span class="skill-tag">Presentations</span>
+              <span class="skill-tag">Research</span>
+              <span class="skill-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DOCUMENTS HUB ========== -->
+  <section class="section" id="documents">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">📂 My Files</div>
+        <h2 class="section-title">Documents & Presentations</h2>
+        <p class="section-subtitle">All my coursework, presentations, and resources — organized and accessible.</p>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="docs-toolbar reveal">
+        <div class="docs-categories" id="categoryFilters">
+          <button class="category-btn active" data-category="all">All Files</button>
+          <button class="category-btn" data-category="college">College</button>
+          <button class="category-btn" data-category="presentations">Presentations</button>
+          <button class="category-btn" data-category="projects">Projects</button>
+          <button class="category-btn" data-category="personal">Personal</button>
+        </div>
+        <div class="docs-search">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" placeholder="Search documents...">
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="docs-stats reveal" id="docsStats"></div>
+
+      <!-- Documents Grid -->
+      <div class="docs-grid stagger-children" id="docsGrid"></div>
+
+      <!-- Empty State -->
+      <div class="docs-empty" id="docsEmpty" style="display: none;">
+        <div class="empty-icon">🔍</div>
+        <h3>No documents found</h3>
+        <p>Try adjusting your search or filter criteria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS ========== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">My Journey</div>
+        <h2 class="section-title">Milestones & Achievements</h2>
+        <p class="section-subtitle">Key moments and accomplishments along the way.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-date">September 2026</div>
+          <div class="timeline-card">
+            <h3>🎓 GitHub Student Developer Pack</h3>
+            <p>Activated the GitHub Student Developer Pack — unlocking free developer tools, cloud credits, and hosting services to build and deploy projects.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-date">August 2026</div>
+          <div class="timeline-card">
+            <h3>📊 Digital Marketing Deep Dive</h3>
+            <p>Completed comprehensive coursework on Digital Marketing, Google Ads strategies, and KPI analysis — building expertise in online advertising and analytics.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-date">2026</div>
+          <div class="timeline-card">
+            <h3>🚀 Portfolio Website Launch</h3>
+            <p>Designed and launched this personal portfolio and document hub — a centralized platform for all academic work, presentations, and resources.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Ongoing</div>
+          <div class="timeline-card">
+            <h3>📚 Continuous Learning</h3>
+            <p>Always exploring new technologies, marketing strategies, and creative approaches to problem-solving. The journey never stops.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+
+      <div class="contact-content reveal">
+        <p class="contact-text">
+          Whether you have a question, want to collaborate, or just want to say hi — my inbox is always open. 
+          Feel free to reach out through any of the platforms below!
+        </p>
+
+        <div class="contact-links">
+          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link">
+            <span class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </span>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-link">
+            <span class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </span>
+            LinkedIn
+          </a>
+          <a href="mailto:ankit@example.com" class="contact-link">
+            <span class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </span>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with <span class="accent">♥</span> by Ankit — © 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

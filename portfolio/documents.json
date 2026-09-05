@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Digital Marketing Textbook",
+    "description": "Comprehensive textbook on digital marketing concepts and strategies",
+    "filename": "Book 27 Aug 2026 (1).pdf",
+    "category": "college",
+    "type": "pdf",
+    "size": "9.3 MB",
+    "date": "2026-08-27"
+  },
+  {
+    "id": 2,
+    "name": "CD SHMM625 Notes",
+    "description": "Course notes and material for SHMM625",
+    "filename": "CD_SHMM625_1136.pdf",
+    "category": "college",
+    "type": "pdf",
+    "size": "1.2 MB",
+    "date": "2026-08-27"
+  },
+  {
+    "id": 3,
+    "name": "Digital Marketing Guide",
+    "description": "Digital marketing study material and reference guide",
+    "filename": "DM.pdf",
+    "category": "college",
+    "type": "pdf",
+    "size": "1.5 MB",
+    "date": "2026-08-27"
+  },
+  {
+    "id": 4,
+    "name": "Chapter 6 — Study Notes",
+    "description": "Chapter 6 study material and detailed reference notes",
+    "filename": "ch6.pdf",
+    "category": "college",
+    "type": "pdf",
+    "size": "9.4 MB",
+    "date": "2026-08-27"
+  },
+  {
+    "id": 5,
+    "name": "Digital Marketing KPIs",
+    "description": "Presentation on Digital Marketing KPIs with class discussion questions",
+    "filename": "Digital_Marketing_KPIs_Class_Questions.pptx",
+    "category": "presentations",
+    "type": "pptx",
+    "size": "63 KB",
+    "date": "2026-08-27"
+  },
+  {
+    "id": 6,
+    "name": "Google Ads — Complete Guide",
+    "description": "Comprehensive guide to Google Ads platform and advertising strategies",
+    "filename": "Google_Ads_Guide.pptx",
+    "category": "presentations",
+    "type": "pptx",
+    "size": "4.8 MB",
+    "date": "2026-08-27"
+  }
+]
